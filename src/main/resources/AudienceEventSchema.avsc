@@ -1,0 +1,27 @@
+{
+  "type": "record",
+  "name": "audienceEvent",
+  "doc": "Audience Event",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "transactionId",
+      "type": "string"
+    },
+    {
+      "name": "productId",
+      "type": "string"
+    },
+    {
+      "name": "userId",
+      "type": "int"
+    },
+    {
+      "name": "spent",
+      "type": "double"
+    }
+  ]
+}
